@@ -70,10 +70,19 @@ html, body, #root {
 /* //this is jordan section which i created ends here// */
 
 /* footer */
+/* CSS */
 footer {
-  background-color: #4DD0E1;
   padding: 20px;
   margin-top: auto;
+  background-color: inherit; /* Inherit background color from the parent element */
+}
+
+footer ,.footerdiv {
+  color: inherit; /* Inherit text color from the parent element */
+}
+
+footer, ul, li, a, h5  {
+  background: #212529;
 }
 
 /* Adjust the styles as needed */
