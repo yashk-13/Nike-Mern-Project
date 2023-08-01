@@ -1,0 +1,131 @@
+
+
+
+html, body, #root {
+  height: 100%;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+}
+
+:root {
+  --lightgray:#eeeeee;
+  --font-Nike : 'Bebas Neue', sans-serif;
+}
+
+.SmallBar {
+    border:  2px solid red;
+    height: 12vh;
+    width: 100%;
+}
+
+.carousel-item {
+    text-align: center;
+    background: var(--lightgray);
+  }
+  
+  .carousel-item h3 {
+    font-size: 20px;
+    font-family: var(--font-Nike);
+    font-size: 48px ;
+    font-weight: bolder;
+    background: var(--lightgray);
+  }
+  
+  .carousel-item p {
+    font-size: 14px;
+    background: var(--lightgray);
+  }
+
+ .kickdiv{
+  margin: 50px;
+ }
+
+
+ /* .jordan section starts here which i created */
+.jordan{
+  background-color: var(--lightgray);
+  background-blend-mode: lighten;
+ }
+
+
+.sidediv ul li{
+  text-decoration: none;
+  list-style: none;
+  
+  padding: 10px 40px;
+
+} 
+.sidediv ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+.sidediv ul li a :is(:hover) {
+  text-decoration: underline;
+  color:var(--lightgray)
+}
+/* //this is jordan section which i created ends here// */
+
+/* footer */
+footer {
+  background-color: #4DD0E1;
+  padding: 20px;
+  margin-top: auto;
+}
+
+/* Adjust the styles as needed */
+
+
+/* footer Ends  */
+/* dare to disrupt sec */
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@800&family=Open+Sans:wght@400;600&display=swap');
+
+.dare {
+  display:  flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  }
+  .bold-text {
+   font-family: var(--font-Nike);
+   font-weight: bolder;
+    font-size: 80px;
+  }
+/* dare sec ends */
+
+
+
+
+/* Onscroll Carousel */
+/* .on-scroll-carousel {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.swiper-container {
+  width: 100%;
+  height: 100%;
+} */
+.mySwiper {
+  border:  2px solid red;
+  border-radius: 25px;
+}
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.swiper-slide img {
+  width: 50%;
+  height: 90%;
+  object-fit: cover;
+  
+}
+
+
+/* Onscroll Carousel ENDs */
